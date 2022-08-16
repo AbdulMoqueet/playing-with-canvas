@@ -24,7 +24,6 @@ const colorArray = [
 window.addEventListener('mousemove', function (event) {
     mouse.x = event.x
     mouse.y = event.y
-    console.log("moving...");
 })
 
 function Circle(x, y, dx, dy, radius) {
@@ -71,7 +70,7 @@ function Circle(x, y, dx, dy, radius) {
 
 const circleArray = []
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 200; i++) {
     const radius = 30
     const x = Math.random() * (innerWidth - (radius * 2)) + radius
     const y = Math.random() * (innerHeight - (radius * 2)) + radius
